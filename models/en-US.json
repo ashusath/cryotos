@@ -1,20 +1,29 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "api starter",
+      "invocationName": "cryptos",
       "intents": [
         {
-          "name": "GetAstros",
+          "name": "GetBTCPrice",
           "samples": [
-            "how many people are in space",
-            "how many people are in space now",
-            "how many people are currently in space",
-            "how many humans are in space",
-            "how many humans are in space now",
-            "how many humans are currently in space",
-            "how many astronauts are in space",
-            "how many astronauts are in space now",
-            "how many astronauts are currently in space"
+            "what is the price of bitcoin",
+            "what is the price for one bitcoin",
+            "what is the price for one btc",
+            "how much one bitcoin will worth"
+          ]
+        },
+        {
+          "name": "GetBTCPriceForCountry",
+          "slots":[
+              {
+                  "name":"country",
+                  "type":"AMAZON.Country"
+              }
+          ],
+          "samples": [
+            "to get price of bitcoin in {country}",
+            "to get price of bitcoin for {country}",
+            "how much bitcoin will cost in {country}"
           ]
         },
         {

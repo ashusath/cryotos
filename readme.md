@@ -1,18 +1,14 @@
-# API Starter - Alexa Skill Template
+# Cryptos
 
-This is an Alexa skill template that provides a simple example of a skill that calls an external API. The API used is the [api.open-notify.org API](http://api.open-notify.org/astros.json) which returns a list of the astronauts currently in space.
+### Gets the latest price of bitcoin
 
-### Live example
-To try an example of this skill template, you can enable the [Ground Control Alexa skill](https://www.amazon.com/Dabble-Lab-Ground-Control/dp/B075CWGY1P/ref=sr_1_sc_1?ie=UTF8&qid=1514557483&sr=8-1-spell&keywords=grond+control+alexa+skill). Just say: `Alexa, enable Ground Control` and then `Alexa, open Ground Control`.
+  "what is the price of bitcoin",
+  "what is the price for one bitcoin",
+  "what is the price for one btc",
+  "how much one bitcoin will worth"
 
-### Using this template
+### Gets the latest price of bitcoin in India
 
-This template was designed to be used with the [Alexa Skills Kit Command-Line Interface](https://developer.amazon.com/docs/smapi/ask-cli-intro.html) (aka: ASK-CLI). After installing the ASK-CLI you can run the following command to setup a new skill project based on this template.
-
-`$ ask new --template --url http://skilltemplates.com/templates.json`
-
-After running the previous command you'll see of list of templates to choose from. Pick the template named `API Starter`. This will create a new folder named `./api-starter/` all of the code for the template will be located in that folder.
-
-### Video Tutorial
-
-[coming soon]
+  "to get price of bitcoin in {country}",
+  "to get price of bitcoin for {country}",
+  "how much bitcoin will cost in {country}"

@@ -1,21 +1,20 @@
 {
-  "skillManifest": {
+  "manifest": {
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Provides the total number of astronauts who are currently in space.",
+          "summary": "Get the latest price of crypto currency .",
           "examplePhrases": [
-            "Alexa, ask API Starter how many people are in space",
-            "Alexa, ask how many astronauts are in space from API Starter",
-            "Alexa, ask API Starter how many humans are in space now"
+            "Alexa, ask cryptos what is the price of bitcoin",
+            "Alexa, what is the price for one bitcoin",
+            "Alexa, how much one bitcoin will worth"
           ],
           "keywords": [
-            "space",
-            "astronauts",
-            "rocket"
+            "crypto",
+            "currency"
           ],
-          "name": "API Starter",
-          "description": "Guess how many astronauts are currently in space? Know the answer? Alexa does. Just say: Alexa, ask rocket man how many people in space.",
+          "name": "cryptos",
+          "description": "Want to updated with latest price of crypto currency? Just say: Alexa, ask cryptos what is the price of bitcoin.",
           "smallIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/skill-template-default-sm.png",
           "largeIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/skill-template-default-lg.png"
         }
